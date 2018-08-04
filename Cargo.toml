@@ -1,0 +1,15 @@
+[package]
+name = "xmlop-datatypes"
+version = "0.1.0"
+authors = ["YOSHIOKA Takuma <lo48576@hard-wi.red>"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+description = "Basic datatypes for xmlop"
+repository = "https://github.com/lo48576/xmlop-datatypes"
+keywords = ["XML", "datatype"]
+
+[dependencies]
+
+[badges]
+maintenance = { status = "experimental" }
+travis-ci = { repository = "lo48576/xmlop-datatypes" }
