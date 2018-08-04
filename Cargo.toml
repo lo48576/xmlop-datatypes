@@ -8,6 +8,9 @@ description = "Basic datatypes for xmlop"
 repository = "https://github.com/lo48576/xmlop-datatypes"
 keywords = ["XML", "datatype"]
 
+[package.metadata.docs.rs]
+all-features = true
+
 [features]
 nom-4 = ["nom"]
 
