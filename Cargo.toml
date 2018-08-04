@@ -8,7 +8,13 @@ description = "Basic datatypes for xmlop"
 repository = "https://github.com/lo48576/xmlop-datatypes"
 keywords = ["XML", "datatype"]
 
+[features]
+nom-4 = ["nom"]
+
 [dependencies]
+nom = { version = "4", optional = true }
+opaque_typedef = "0.0.4"
+opaque_typedef_macros = "0.0.4"
 
 [badges]
 maintenance = { status = "experimental" }
